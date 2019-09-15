@@ -6,7 +6,7 @@ public class Calculator {
 		if (input[0].matches(decimal) || input[2].matches(decimal)){
 			double in1 = double.parseDouble(input[0]);
 			double in2 = double.parseDouble(input[2]);
-			double out ;
+			double out;
 			if (input[1].equals("+")) out = in1 + in2;
 			else if(input[1].equals("-")) out = in1 - in2;
 			else if(input[1].equals("*")) out = in1 * in2;
